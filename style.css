@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.banner{
+    width: 100%;
+    height: 100%;
+background-image: url(/Paintings/wallpaperflare.com_wallpaper.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+background-size: cover;
+}
+.banner2{
+width: 100%;
+height: 100%;
+background-image: url(/Paintings/paintt.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+background-size: cover;
+}
+.navbar{
+width: 85%;
+margin: auto;
+padding: 35px 0;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: wavy;
+    color: #dfa56f;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-shadow: 1px 1px #000000;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: #ffae6c;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 58%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #dfa56f;
+    font-family: 'Mrs Saint Delafield', cursive;
+    text-shadow:2px 2px #000000;
+}
+
+button{
+    width: 138px;
+    padding: 15px;
+    text-align: center;
+    margin:20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #dfa56f;
+    background: transparent;
+    color:#d6873c;
+    text-shadow: 1px 1px #000000;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+span{
+    background: #dfa56f;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+button:hover span{
+    width: 100%;
+}
+button:hover{
+    border: none;
+}
+.lasts{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    position: relative;
+    overflow: hidden;
+}
+.lasts img{
+    width: 30%;
+
+
+}
+.lastsa img{
+    width: 30%;
+
+
+}
+.lastsa{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    position: relative;
+    overflow: hidden;
+}
+.LSdes{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    padding: 100px;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.LS{
+    width: 100%;
+height: 100%;
+background-image: url(/Paintings/adab\ ziz.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+background-size: cover;
+}
+.jasmine{
+    font-size: large;
+    font-style: italic; 
+}
+
+.pp::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+  .pp {
+    display: flex;
+}
+  .pps {
+    float: left;
+    width: 25%;
+    padding: 5px;
+    
+}
+  
+  .pps {
+    flex: 25%;
+    padding: 2px;
+   
+}
+.poster{
+    width: 30%;
+    height: 80%;
+    float: left;
+}
+.org{
+     margin-top: 100px;
+}
